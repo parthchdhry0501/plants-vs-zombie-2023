@@ -32,9 +32,7 @@ function audi(aud)
     aud.currentTime=0;
     aud.play();
 }
-// class images{
-//     constructor()
-// }    
+ 
 audi(theme);
 class Square {
     constructor(x, y, size) {
