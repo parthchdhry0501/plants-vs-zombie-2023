@@ -41,7 +41,7 @@ class Square {
         this.side = size;
     }
     draw() {
-        ctx.strokeStyle = 'black';
+        ctx.strokeStyle = 'green';
         ctx.strokeRect(this.x, this.y, this.side, this.side);
     }
 }
